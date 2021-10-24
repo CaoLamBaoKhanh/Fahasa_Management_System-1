@@ -185,7 +185,7 @@ namespace Fahasa_Management_System
             this.gunaAdvenceButton3.OnPressedColor = System.Drawing.Color.Black;
             this.gunaAdvenceButton3.Size = new System.Drawing.Size(240, 52);
             this.gunaAdvenceButton3.TabIndex = 3;
-            this.gunaAdvenceButton3.Text = "Dashboard";
+            this.gunaAdvenceButton3.Text = "Khanh";
             this.gunaAdvenceButton3.TextOffsetX = 20;
             // 
             // gunaAdvenceButton2
@@ -220,7 +220,7 @@ namespace Fahasa_Management_System
             this.gunaAdvenceButton2.OnPressedColor = System.Drawing.Color.Black;
             this.gunaAdvenceButton2.Size = new System.Drawing.Size(240, 52);
             this.gunaAdvenceButton2.TabIndex = 2;
-            this.gunaAdvenceButton2.Text = "Khanh";
+            this.gunaAdvenceButton2.Text = "Dashboard";
             this.gunaAdvenceButton2.TextOffsetX = 20;
             // 
             // gunaAdvenceButton1

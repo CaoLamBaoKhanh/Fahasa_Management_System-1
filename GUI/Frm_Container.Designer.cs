@@ -36,7 +36,7 @@ namespace Fahasa_Management_System
             this.gunaAdvenceButton4 = new Guna.UI.WinForms.GunaAdvenceButton();
             this.gunaAdvenceButton3 = new Guna.UI.WinForms.GunaAdvenceButton();
             this.gunaAdvenceButton2 = new Guna.UI.WinForms.GunaAdvenceButton();
-            this.gunaAdvenceButton1 = new Guna.UI.WinForms.GunaAdvenceButton();
+            this.btn_Product = new Guna.UI.WinForms.GunaAdvenceButton();
             this.btn_Dashboard = new Guna.UI.WinForms.GunaAdvenceButton();
             this.pnl_Logo = new Guna.UI2.WinForms.Guna2Panel();
             this.btn_Logo_Nav = new Guna.UI.WinForms.GunaAdvenceButton();
@@ -72,7 +72,7 @@ namespace Fahasa_Management_System
             this.pnl_Button_Container.Controls.Add(this.gunaAdvenceButton4);
             this.pnl_Button_Container.Controls.Add(this.gunaAdvenceButton3);
             this.pnl_Button_Container.Controls.Add(this.gunaAdvenceButton2);
-            this.pnl_Button_Container.Controls.Add(this.gunaAdvenceButton1);
+            this.pnl_Button_Container.Controls.Add(this.btn_Product);
             this.pnl_Button_Container.Controls.Add(this.btn_Dashboard);
             this.pnl_Button_Container.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnl_Button_Container.Location = new System.Drawing.Point(0, 100);
@@ -223,40 +223,40 @@ namespace Fahasa_Management_System
             this.gunaAdvenceButton2.Text = "Dashboard";
             this.gunaAdvenceButton2.TextOffsetX = 20;
             // 
-            // gunaAdvenceButton1
+            // btn_Product
             // 
-            this.gunaAdvenceButton1.Animated = true;
-            this.gunaAdvenceButton1.AnimationHoverSpeed = 0.07F;
-            this.gunaAdvenceButton1.AnimationSpeed = 0.03F;
-            this.gunaAdvenceButton1.BaseColor = System.Drawing.Color.Transparent;
-            this.gunaAdvenceButton1.BorderColor = System.Drawing.Color.Black;
-            this.gunaAdvenceButton1.ButtonType = Guna.UI.WinForms.AdvenceButtonType.RadioButton;
-            this.gunaAdvenceButton1.CheckedBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(254)))));
-            this.gunaAdvenceButton1.CheckedBorderColor = System.Drawing.Color.Black;
-            this.gunaAdvenceButton1.CheckedForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(35)))), ((int)(((byte)(67)))));
-            this.gunaAdvenceButton1.CheckedImage = global::Fahasa_Management_System.Properties.Resources.dashboard;
-            this.gunaAdvenceButton1.CheckedLineColor = System.Drawing.Color.DimGray;
-            this.gunaAdvenceButton1.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.gunaAdvenceButton1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.gunaAdvenceButton1.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaAdvenceButton1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gunaAdvenceButton1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(35)))), ((int)(((byte)(67)))));
-            this.gunaAdvenceButton1.Image = global::Fahasa_Management_System.Properties.Resources.dashboard;
-            this.gunaAdvenceButton1.ImageOffsetX = 18;
-            this.gunaAdvenceButton1.ImageSize = new System.Drawing.Size(28, 28);
-            this.gunaAdvenceButton1.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(58)))), ((int)(((byte)(170)))));
-            this.gunaAdvenceButton1.Location = new System.Drawing.Point(0, 60);
-            this.gunaAdvenceButton1.Name = "gunaAdvenceButton1";
-            this.gunaAdvenceButton1.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.gunaAdvenceButton1.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.gunaAdvenceButton1.OnHoverForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(35)))), ((int)(((byte)(67)))));
-            this.gunaAdvenceButton1.OnHoverImage = null;
-            this.gunaAdvenceButton1.OnHoverLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(58)))), ((int)(((byte)(170)))));
-            this.gunaAdvenceButton1.OnPressedColor = System.Drawing.Color.Black;
-            this.gunaAdvenceButton1.Size = new System.Drawing.Size(240, 52);
-            this.gunaAdvenceButton1.TabIndex = 1;
-            this.gunaAdvenceButton1.Text = "Dashboard";
-            this.gunaAdvenceButton1.TextOffsetX = 20;
+            this.btn_Product.Animated = true;
+            this.btn_Product.AnimationHoverSpeed = 0.07F;
+            this.btn_Product.AnimationSpeed = 0.03F;
+            this.btn_Product.BaseColor = System.Drawing.Color.Transparent;
+            this.btn_Product.BorderColor = System.Drawing.Color.Black;
+            this.btn_Product.ButtonType = Guna.UI.WinForms.AdvenceButtonType.RadioButton;
+            this.btn_Product.CheckedBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(254)))));
+            this.btn_Product.CheckedBorderColor = System.Drawing.Color.Black;
+            this.btn_Product.CheckedForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(35)))), ((int)(((byte)(67)))));
+            this.btn_Product.CheckedImage = global::Fahasa_Management_System.Properties.Resources.dashboard;
+            this.btn_Product.CheckedLineColor = System.Drawing.Color.DimGray;
+            this.btn_Product.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.btn_Product.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btn_Product.FocusedColor = System.Drawing.Color.Empty;
+            this.btn_Product.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Product.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(35)))), ((int)(((byte)(67)))));
+            this.btn_Product.Image = global::Fahasa_Management_System.Properties.Resources.dashboard;
+            this.btn_Product.ImageOffsetX = 18;
+            this.btn_Product.ImageSize = new System.Drawing.Size(28, 28);
+            this.btn_Product.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(58)))), ((int)(((byte)(170)))));
+            this.btn_Product.Location = new System.Drawing.Point(0, 60);
+            this.btn_Product.Name = "btn_Product";
+            this.btn_Product.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.btn_Product.OnHoverBorderColor = System.Drawing.Color.Black;
+            this.btn_Product.OnHoverForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(35)))), ((int)(((byte)(67)))));
+            this.btn_Product.OnHoverImage = null;
+            this.btn_Product.OnHoverLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(58)))), ((int)(((byte)(170)))));
+            this.btn_Product.OnPressedColor = System.Drawing.Color.Black;
+            this.btn_Product.Size = new System.Drawing.Size(240, 52);
+            this.btn_Product.TabIndex = 1;
+            this.btn_Product.Text = "Product";
+            this.btn_Product.TextOffsetX = 20;
             // 
             // btn_Dashboard
             // 
@@ -517,7 +517,7 @@ namespace Fahasa_Management_System
         private Guna.UI.WinForms.GunaAdvenceButton gunaAdvenceButton4;
         private Guna.UI.WinForms.GunaAdvenceButton gunaAdvenceButton3;
         private Guna.UI.WinForms.GunaAdvenceButton gunaAdvenceButton2;
-        private Guna.UI.WinForms.GunaAdvenceButton gunaAdvenceButton1;
+        private Guna.UI.WinForms.GunaAdvenceButton btn_Product;
         private Guna.UI.WinForms.GunaAdvenceButton btn_Close;
         private Guna.UI.WinForms.GunaAdvenceButton btn_Minimize;
         private Guna.UI.WinForms.GunaAdvenceButton btn_Maximize;

@@ -172,7 +172,5 @@ namespace Fahasa_Management_System
         {
             this.WindowState = FormWindowState.Minimized;
         }
-
-       
     }
 }
